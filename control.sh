@@ -1,7 +1,7 @@
 while [ 1 ]
 do
 
-read -rsn1 key # get 1 character
+read -rsn1 key
 
 case $key in
     'q') echo QUITTING ; exit ;;
